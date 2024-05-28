@@ -1,0 +1,43 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+    body{
+        background-image: url(images/bkimgg.avif);
+        background-repeat:round;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+ height:100vh;   
+    }
+
+.carddd{
+    height: 70vh;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+box-shadow: 7px 3px 7px rgb(6, 84, 116)
+}
+
+.carddd:hover{
+    box-shadow: 5px -4px 6px black;
+}
+
+.cardimg1{
+    
+    width:100%;
+    height: 50vh;
+}
+
+.cardtext1{
+    text-align: center;
+    text-decoration: dashed;
+}
+
+.card-body{
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: 200;
+    color: rgb(2, 62, 110);
+}
